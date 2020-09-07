@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStetho for Pets - Web Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+        <a class="logo navbar-brand" href="#"><img src="./Images/Logo_Horizontal.svg" alt="MyStetho for Pets logo"></a>
+        <div class=""></div>
+    </nav>
+
+    <main role="main" class="main">
+        <div class="d-flex justify-content-center">
+           <div class="phone-left">
+            <div class="phone-left-inner">
+                <div class="phone-left-screen-content">
+                    <button class="btn-yellow">Recording Lungs</button>
+                        <img class="longs-gif" src="./Images/Longs.gif" alt="longs">
+                        <h2 id="ibgResult"></h2>
+                        <button id="start" class="btn-raunded" onclick="start()">
+                            <span><i class="fas fa-microphone fa-2x"></i></span>
+                        </button>
+                        <button id="stop" class="btn-raunded" style="display: none" onclick="stop()">
+                            <span><i class="fas fa-stop fa-lg"></i></span>
+                        </button>
+                </div>
+                <!-- <div class="text-info">
+                    <h1>TEXT INFORMATION</h1>
+                    <h1>TEXT INFORMATION</h1>
+                 </div> -->
+            </div>
+           </div>
+           <div class="phone-right">
+             <div class="phone-right-inner">
+               <div class="phone-right-screen-content">
+                <div class="logo-view">
+                    <img src="./Images/Logo_RGB.png" alt="logo">
+                </div>
+                <div id="audioContainer">
+                   <!--  <ol id="recordingsList" class="right"></ol>
+                    <canvas id="canvasWaveform"></canvas> -->
+                </div>
+                <div class="barplot">
+                    <img class="d-none" src="" alt="error-barplot"> 
+                </div>
+                <div class="spectograma">
+                    <img class="d-none" src="" alt="error-spectograma">
+                </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </main>
+
+    <footer class="page-footer font-small navbar-fixed-bottom">
+        <div class="footer-copyright text-center .col-xl-6 .col-lg-6 .col-md-6 .col-sm-12 .col-12">
+            <p>&copy; 2020 by<a target="_blank" href="https://mystetho.com"> MyStetho SA</a></p>
+        </div>
+        <ul class=".col-xl-6 .col-lg-6 .col-md-6 .col-sm-12 .col-12">
+            <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FMyStethoForPets%2F&amp;src=sdkpreparse"><i class="fas fa-share-alt"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/mystethoforpets"><i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/MyStethoForPets/"><i class="fab fa-facebook-square"></i></a></li>
+        </ul>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/081d232dd7.js" crossorigin="anonymous"></script>
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="client_spectrogram.js"></script>
+
+</body>
+</html>

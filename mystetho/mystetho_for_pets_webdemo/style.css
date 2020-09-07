@@ -1,0 +1,320 @@
+body {
+  background: linear-gradient(190.51deg, #0E406F 5.01%, #5AA6EF 93.57%) no-repeat;
+}
+.navbar {
+  font-family: 'Sofia Pro';
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: #154B7F;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.6);
+}
+.main{
+  padding-top: 8%;
+}
+.navbar-brand {
+  margin-right: 30%;
+  height: 90px;
+}
+
+.navbar-brand>img {
+  width: 270px;
+  height: 60px;
+  margin-top: 1px;
+}
+.btn-yellow {
+  background-color: #F6BE41;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 180px;
+  line-height: 44px;
+  color: #000000;
+  position: relative;
+  top: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.longs-gif{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    display: block;
+    top: 200px;
+    margin: 0 auto;
+}
+
+.phone-left, .phone-right{
+  width: 100%;
+  height: 1150px;
+  position: relative;
+}
+
+.phone-left:before{
+   content: "";
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    background: url(./Images/right-picture.png) no-repeat;
+    left: 0;
+    top: 350px;
+}
+
+.phone-left-inner {
+    position: relative;
+    top: 33px;
+    left: 28%;
+    width: 400px;
+    height: 720px;
+    background-image: url('./Images/iPhone.png');
+    background-repeat: no-repeat;
+    background-position: -15px -5px;
+}
+.phone-left-inner:after{
+  position: absolute;
+  content: "";
+  background: url(./Images/Stethoscope.png) no-repeat;
+  background-position: center;
+  left: 255px;
+  top: 485px;
+  width: 250px;
+  height: 210px;
+}
+
+.phone-left-screen-content {
+    top: 50px;
+    left: 60px;
+    height: 630px;
+    width: 290px;
+    position: relative;
+}
+
+.phone-right{
+  overflow: hidden;
+}
+
+.phone-right-inner {
+  position: relative;
+  top: 20px;
+  left: 18%;
+  width: 648px;
+  height: 1083px;
+  background-image: url(./Images/Hand_Phone.png);
+  background-repeat: no-repeat;
+}
+
+.phone-right:before{
+   content: "";
+    background: url(Images/left-picture.png) no-repeat;
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    right: 0;
+   
+    background-position: top;
+}
+
+.phone-right-screen-content {
+    top: 66px;
+    left: 115px;
+    height: 630px;
+    width: 290px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 31px;
+}
+
+#audioContainer p {
+  top: 5px;
+  left: 20px;
+  position: relative;
+  color: #154B7F;
+  font-weight: bold;
+}
+
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+ol > li {
+  width: 300px;
+  height: 75px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #EBEBEB;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background-color:#EBEBEB ;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+h2 {
+  color: #154B7F;
+  font-family: 'Sofia Pro';
+}
+
+#ibgResult {
+  text-align: center;
+  position: relative;
+  height: 50px;
+  top: 200px;
+  color: #fff;
+}
+
+/*audio*/
+
+audio {
+  width: 260px;
+  height: 50px;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #154B7F;
+}
+
+
+audio::-webkit-media-controls-current-time-display, 
+audio::-webkit-media-controls-time-remaining-display {
+  color: #F6BE41;
+}
+
+.scroll {
+  width: 200px;
+  height: 400px;
+  background: red;
+  overflow: scroll;
+}
+
+.btn-raunded {
+    width: 80px;
+    color: #ffffff;
+    margin: 0 auto;
+    top: 200px;
+    display: block;
+    position: relative;
+    height: 80px;
+    border-color: #245787;
+    background: linear-gradient(184.66deg, #0C355B 9.14%, #5AA6EF 93.89%);
+    border-radius: 134.595px;
+}
+.text-info {
+  padding-top: 110px;
+}
+.d {
+  display: block!important;
+}
+.text-info h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  padding-left: 70px;
+}
+.spectograma {
+  right: 20px;
+  position: relative;
+  top: 67px;
+  height: 175px;
+}
+
+.spectograma img {
+  height: 160px;
+  width: 308px;
+}
+.barplot {
+  right: 16px;
+  height: 175px;
+  width: 302px;
+  position: relative;
+  top: 130px;
+}
+.barplot img {
+  height: 65px;
+  width: 100%;
+}
+#audioContainer {
+    top: 90px;
+    position: relative;
+}
+.logo-view {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  background-color: #154B7F;
+  color: #fff;
+  padding-top: 20px;
+}
+
+#recordingsList {
+  list-style-type: none;
+  top: 73px;
+  position: relative;
+  right: 35px;
+/*  overflow-y: scroll;
+  overflow-x: hidden;*/
+  height: 290px;
+  width: 320px;
+}
+
+.footer-copyright {
+  margin-left: 40px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 30%;
+}
+
+ul > li {
+  margin-left: 30px;
+}
+
+ul > li > a {
+  color: #EFEFEF;
+}
+ul > li > a:hover {
+  color: #EFEFEF;
+}
+
+h4 {
+    color: #00B783;
+    font-family: 'Sofia Pro';
+}
+
+h3 {
+  color: #00B783;
+  font-family: 'Sofia Pro';
+}
+
+footer  .text-center a {
+  font-family: 'Sofia Pro';
+  color: #fff;
+}
+
+audio {
+  width: 274px;
+  padding-left: 10px;
+  height: 46px;
+}
+

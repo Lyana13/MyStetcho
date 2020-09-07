@@ -1,0 +1,159 @@
+.navbar {
+  font-family: 'Sofia Pro';
+  height: 70px;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  margin-right: 30%;
+  height: 90px;
+}
+
+.navbar-brand>img {
+  width: 270px;
+  height: 60px;
+  margin-top: 1px;
+}
+
+.navbar-light .navbar-text  {
+  color: #00B783;
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  margin-left: 120px;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  margin-left: 10px;
+  /* width: 100%; */
+  justify-content: flex-start;
+}
+
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+ol > li {
+  width: 300px;
+  height: 100px;
+}
+
+.card {
+  background-image: url('./Images/Screen.png');
+  background-size: 305px 588px;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 360px;
+  height: 585px;
+  justify-content: center;
+  margin: auto;
+  border: 0;
+}
+
+.card-header {
+  width: 245px;
+  /* margin-top: 40px; */
+  margin-left: 35px;
+  border: 0;
+  background-color: #fff;
+}
+
+.card-body {
+  max-height: 200px;
+}
+
+h2 {
+  color: #00B783;
+  font-family: 'Sofia Pro';
+}
+
+.pets {
+  display: flex;
+  width: 200px;
+  margin-left: 40px;
+  justify-content: space-between;
+  justify-items: baseline;
+}
+
+.gray {
+  background-color: #EFEFEF;
+  width: 83px;
+  height: 83px;
+  /* border: 1px solid #00B783; */
+}
+
+.gray img {
+  width: 53px;
+  height: 54px;
+  margin-top: 15px;
+}
+
+.guidance {
+  width: 200px;
+  margin-left: 45;
+  color: #000;
+}
+
+.buttons {
+  width: 300px;
+}
+
+.btn-raunded {
+  width: 44px;
+  height: 44px;
+  background-color: #00B783;
+  border-radius: 37px;
+  border-color: transparent;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  background-color: #00B783;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.footer-copyright {
+  margin-left: 40px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 30%;
+}
+
+ul > li {
+  margin-left: 30px;
+}
+
+ul > li > a {
+  color: #EFEFEF;
+}
+ul > li > a:hover {
+  color: #EFEFEF;
+}
+
+h4 {
+    color: #00B783;
+    font-family: 'Sofia Pro';
+}
+
+h3 {
+  color: #00B783;
+  font-family: 'Sofia Pro';
+}
+
+footer  .text-center a {
+  font-family: 'Sofia Pro';
+  color: #fff;
+}
